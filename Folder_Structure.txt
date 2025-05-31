@@ -1,0 +1,21 @@
+github-keyword-searcher/
+│
+├── client/                   # Frontend (React.js with Vite)
+│   ├── src/
+│   │   ├── components/       # UI Components (InputForm, RepoList)
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── public/
+│   └── vite.config.js
+│
+├── server/                   # Backend (Node.js + Express)
+│   ├── routes/
+│   │   └── search.js         # Handles keyword scanning
+│   ├── services/
+│   │   └── githubAPI.js      # GitHub API logic
+│   ├── app.js
+│   └── package.json
+│
+├── .gitignore
+├── README.md
+└── LICENSE
